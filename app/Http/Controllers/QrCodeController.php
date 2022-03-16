@@ -8,5 +8,7 @@ class QrCodeController extends Controller
 {
     public function index (){
         return view('qrcode');
+        //return response() ->json([ 'status' =>201,]);
+
     }
 }
